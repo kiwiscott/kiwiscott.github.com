@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How I Turned Down $300,000 from Microsoft to go Full-Time on GitHub
+excerpt: A day in the life of a daeveloper
 ---
 
 h1. {{ page.title }}
