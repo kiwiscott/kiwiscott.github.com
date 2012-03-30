@@ -7,9 +7,9 @@ title: Tom Preston-Werner
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-    {{ post.date | date: %b }}
-    {{ post.date | date: %d }}
-    {{ post.date | date: %Y }}
+    {{ post.date | date: "%b" }}
+    {{ post.date | date: "%d" }}
+    {{ post.date | date: "%Y" }}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
