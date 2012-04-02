@@ -1,12 +1,9 @@
 ---
 layout: post
 title: Rejected Bio from The Setup
+location: San Francisco
+tags: Butery, Blimey
 ---
-
-{{ page.title }}
-================
-
-<p class="meta">03 May 2011 - San Francisco</p>
 
 Yesterday, [the autobiographical post I wrote for The
 Setup](http://tom.preston-werner.usesthis.com/) went live. I wrote that post
