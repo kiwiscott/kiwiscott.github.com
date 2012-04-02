@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head> 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>People</title>
+    <title>Kiwi Scott - A Simple Blog</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link href="http://fonts.googleapis.com/css?family=Arvo:400,700|Oswald" rel="stylesheet"
@@ -14,8 +14,118 @@
     </style>
 </head>
 <body>
-
-{{ content }}
-
+    <div id="wrapper-bg">
+        <div id="wrapper-bgtop">
+            <div id="wrapper-bgbtm">
+                <div id="header" class="container">
+                    <div id="logo">
+                        <h1>
+                            <a href="/index.html">KiwiScott</a></h1>
+                        <p>
+                            Software should be simple</p>
+                    </div>
+                    <div id="menu">
+                        <ul>
+                            <li><a href="/" title="">Blog Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="page" class="container">
+                    <div id="page-bgtop">
+                        <div id="page-bgbtm">
+                            <div id="content">
+                                {{content}}
+                                <div id="disqus_thread">
+                                </div>
+                                <script type="text/javascript">
+                                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                                    var disqus_shortname = 'kiwiscott'; // required: replace example with your forum shortname
+                                    var disqus_identifier = '{{ page.id }}';
+                                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                                    (function () {
+                                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                                    })();
+                                </script>
+                                <noscript>
+                                    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments
+                                        powered by Disqus.</a></noscript>
+                                <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">
+                                    Disqus</span></a>
+                            </div>
+                            <div id="sidebar">
+                                <div id="box4">
+                                    <h2>
+                                        About Me</h2>
+                                    <div class="content">
+                                        <p>
+                                            <a href="#">
+                                                <img src="/images/scott.jpg" width="210" height="90" alt="" /></a></p>
+                                        <p>
+                                            I'm <strong>Scott Reynolds</strong> a developer / manager / architect. I'm working
+                                            hard "transitioning" from the do-er life of a developer to a manager / architect
+                                            / leader. I am tired of complexity for complexity sake.</p>
+                                        <p>
+                                            Twitter : <a href="http://twitter.com/kiwiscott">@kiwiscott</a></p>
+                                    </div>
+                                </div>
+                                <div id="box6">
+                                    <h2>
+                                        Previous Posts</h2>
+                                    <div>
+                                        <ul class="style3">
+                                            {% for post in site.posts limit:10 %}
+                                            <li class="li-bg2"><a href="{{ post.url }}">{{post.title}}</a> <span class="posted">
+                                                {{ post.date | date: "%b" }} {{ post.date | date: "%d" }} {{ post.date | date: "%Y"
+                                                }} </span></li>
+                                            {% endfor %}
+                                        </ul>
+                                        <div class="content">
+                                            <p>
+                                                <a href="#" class="link-style3"><span>Archived Posts</span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                &nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-content" class="container">
+        <div id="three-columns">
+            <div id="box7">
+                <h2>
+                    Geek things I Follow</h2>
+                <ul class="style4">
+                    <li class="first"><a href="http://www.udidahan.com">Udi Dahan</a></li>
+                    <li><a href="http://blog.jonathanoliver.com/">Johnathan Oliver - CQRS</a></li>
+                    <li><a href="http://www.lostechies.com">Jimmy Bogard / Derick Bailey</a></li>
+                    <li><a href="http://www.dotnetrocks.com/">.Net Rocks Podcast</a></li>
+                    <li><a href="http://skillsmatter.com/go/design-architecture">Skillsmatter - Awesome
+                        Developer Training</a></li>
+                </ul>
+            </div>
+            <div id="box8">
+                <h2>
+                    My favourite posts</h2>
+                <div>
+                    <ul class="style4">
+                        <li class="first"><a href="#">...this is new</a></li>
+                        <!--   <li><a href="#">Quis iaculis urna curabitur et tortor</a></li>
+                        <li><a href="#">Maecenas llobortis vestibulum</a></li>
+                        <li><a href="#">Interdum congue sit amet auctor</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="container">
+    </div>
 </body>
 </html>
