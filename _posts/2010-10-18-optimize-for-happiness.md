@@ -3,10 +3,24 @@ layout: post
 title: Optimize for Happiness
 ---
 
-{{ page.title }}
-================
 
-<p class="meta">18 October 2010 - San Francisco</p>
+{% highlight ruby %}
+# Public: Duplicate some text an abitrary number of times.
+#
+# text  - The String to be duplicated.
+# count - The Integer number of times to duplicate the text.
+#
+# Examples  
+#
+#   multiplex('Tom', 4)
+#   # => 'TomTomTomTom'
+#
+# Returns the duplicated String.
+def multiplex(text, count)
+  text * count
+end
+{% endhighlight %}
+
 
 Two days ago I had the pleasure of speaking at Startup School, a yearly conference on entrepreneurism put on by the great folks at Y Combinator. Never before have I see such a high concentration of smart ambitious people in one place.
 

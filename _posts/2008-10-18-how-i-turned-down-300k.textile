@@ -3,10 +3,68 @@ layout: post
 title: How I Turned Down $300,000 from Microsoft to go Full-Time on GitHub
 excerpt: A day in the life of a daeveloper
 ---
+      
+{% highlight csharp %}
+namespace JPMC.ISS.Framework.Reference
+{
+    public enum ReferenceItemTypes
+    {
+        CHANGE_CANCEL_REASON,
+        CHANGE_DEFERRAL_REASON,
+        APPROVAL_DECLINE_REASON,
+        APPROVAL_IMPACT_REASON,
+        CHANGE_ATTACHMENT_TYPES,
+        IMPACTED_CI_TYPES,
+        POST_IMPLEMENTATION_STATUS,
+        REGION,
+        COUNTRY,
+        IMPLEMENTATION_TASK_STATUS,
+        PROBABILITY,
+        IMPACT,
+        EXPEDITED_REASON,
+        SOURCE,
+        TASK_DEFERRED_REASON,
+        TASK_CANCELLED_REASON,
+        TASK_COMMENT_TYPE,
+        TARGETED_CI_TYPES,
+        LOCATION_COUNTRY, 
+        LOCATION_PROPERTY_TYPE,
+        LOCATION_REGION,
+        MEETING_REGION,
+        MEETING_COMMENT_TYPE,
+        PACKAGE_TYPE,
+        PROCESSING_AFFECTED,
+        SYSTEM_OF_RECORD,
+        PROMOTION_TOOL,
+        GROUPING_TYPE,
+        BCDR_REASON
+    }
+}
+
+{% endhighlight %}
 
 h1. {{ page.title }}
 
 p(meta). 18 Oct 2008 - San Francisco
+
+
+
+{% highlight ruby %}
+# Public: Duplicate some text an abitrary number of times.
+#
+# text  - The String to be duplicated.
+# count - The Integer number of times to duplicate the text.
+#
+# Examples
+#
+#   multiplex('Tom', 4)
+#   # => 'TomTomTomTom'
+#
+# Returns the duplicated String.
+def multiplex(text, count)
+  text * count
+end
+{% endhighlight %}
 
 2008 is a leap year. That means that three hundred and sixty six days ago, almost to the minute, I was sitting alone in a booth at Zeke's Sports Bar and Grill on 3rd Street in San Francisco. I wouldn't normally hang out at a sports bar, let alone a sports bar in SOMA, but back then Thursday was "I Can Has Ruby" night. I guess back then "I can has _______" was also a reasonable moniker to attach to pretty much anything. ICHR was a semi-private meeting of like minded Ruby Hackers that generally and willingly devolved into late night drinking sessions. Normally these nights would fade away like my hangover the next morning, but this night was different. This was the night that "GitHub":http://github.com/ was born.
 
