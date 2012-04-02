@@ -1,16 +1,6 @@
 $(document).ready(function(){
-						   
-	// Homepage Slideshow
-	if ($('#slideshow').length > 0) {
-		$('#slideshow').slidertron({
-			viewerSelector:			'.viewer',
-			reelSelector:			'.viewer .reel',
-			slidesSelector:			'.viewer .reel .slide',
-			linkSelector:			'.link',
-			navPreviousSelector:	'.previous',
-			navNextSelector:		'.next',
-			speed:					'slow'
-		});
-	}
-
+    var disqus_shortname = 'kiwiscott';
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 });
