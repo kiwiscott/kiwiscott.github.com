@@ -2,7 +2,6 @@
 layout: default
 title: Kiwi Scott - Blog
 ---
-
 {% for post in site.posts limit:1 %}
 <div class="post">
 <h2 class="title"> {{ post.date | date: "%b" }} {{ post.date | date: "%d" }} {{ post.date | date: "%Y" }} {{ post.location}} </h2>
@@ -12,13 +11,6 @@ title: Kiwi Scott - Blog
 <p class="text2">{{ post.tags }}</p>
 </div>
 {{ post.content }}
-
-<div id="disqus_thread"></div>
-
-<script type="text/javascript">
-   var disqus_identifier = '{{ post.id }}';
-</script>
-
 </div>
 </div>
-    {% endfor %}
+{% endfor %}
