@@ -5,12 +5,14 @@ title: Kiwi Scott - Blog
 
 {% for post in site.posts limit:1 %}
 <div class="post">
-<h2 class="title"> {{post.date}}</h2>
+<h2 class="title"> {{ post.date | date: "%b" }} {{ post.date | date: "%d" }} {{ post.date | date: "%Y" }} {{ post.location}} </h2>
 <div class="entry">
 <div id="box1">
 <h3 class="text1">{{ post.title}}</h3>
 <p class="text2">{{ post.tags }}</p>
 </div>
+{{ post.content }}
+
 </div>
 </div>
     {% endfor %}
