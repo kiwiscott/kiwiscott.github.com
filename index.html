@@ -3,15 +3,24 @@ layout: default
 title: Tom Preston-Werner
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-    {{ post.date | date: "%b" }}
-    {{ post.date | date: "%d" }}
-    {{ post.date | date: "%Y" }}
-    {{post.excerpt}}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+
+http://www.pearsonified.com/wp-content/themes/thesis_17/custom/images/bg-body.gif
+http://www.pearsonified.com/2011/12/golden-ratio-typography.php
+ 
+ 
+ {% for post in site.posts limit 1 %}
+
+<div class="post">
+<h2 class="title"> {{post.date}}</h2>
+<div class="entry">
+<div id="box1">
+<h3 class="text1">{{ post.title}}</h3>
+<p class="text2">{{ page.tags }}</p>
+
+{{ page.content }}
+
 </div>
+</div>
+</div>
+
+    {% endfor %}
