@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% for post in site.posts limit:1 %}
 <div class="post">
 <h2 class="title"> {{ post.date | date: "%b" }} {{ post.date | date: "%d" }} {{ post.date | date: "%Y" }} {{ post.location}} </h2>
