@@ -14,70 +14,7 @@
     </style>
 </head>
 <body>
-    <div id="wrapper-bg">
-        <div id="wrapper-bgtop">
-            <div id="wrapper-bgbtm">
-                <div id="header" class="container">
-                    <div id="logo">
-                        <h1>
-                            <a href="/index.html">KiwiScott</a></h1>
-                        <p>
-                            Software should be simple</p>
-                    </div>
-                    <div id="menu">
-                        <ul>
-                            <li><a href="/" title="">Blog Home</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="page" class="container">
-                    <div id="page-bgtop">
-                        <div id="page-bgbtm">
-                            <div id="content">
-                                {{content}}
-                            </div>
-                            <div id="sidebar">
-                                <div id="box4">
-                                    <h2>
-                                        About Me</h2>
-                                    <div class="content">
-                                        <p>
-                                            <a href="#">
-                                                <img src="/images/scott.jpg" width="210" height="90" alt="" /></a></p>
-                                        <p>
-                                            I'm <strong>Scott Reynolds</strong> a developer / manager / architect. I'm working
-                                            hard "transitioning" from the do-er life of a developer to a manager / architect
-                                            / leader. I am tired of complexity for complexity sake.</p>
-                                        <p>
-                                            Twitter : <a href="http://twitter.com/kiwiscott">@kiwiscott</a></p>
-                                    </div>
-                                </div>
-                                <div id="box6">
-                                    <h2>
-                                        Previous Posts</h2>
-                                    <div>
-                                        <ul class="style3">
-                                            {% for post in site.posts limit:10 %}
-                                            <li class="li-bg2"><a href="{{ post.url }}">{{post.title}}</a> <span class="posted">
-                                                {{ post.date | date: "%b" }} {{ post.date | date: "%d" }} {{ post.date | date: "%Y"
-                                                }} </span></li>
-                                            {% endfor %}
-                                        </ul>
-                                        <div class="content">
-                                            <p>
-                                                <a href="#" class="link-style3"><span>Archived Posts</span></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix">
-                                &nbsp;</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div id="footer-content" class="container">
         <div id="three-columns">
             <div id="box7">
