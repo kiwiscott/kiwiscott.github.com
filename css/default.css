@@ -6,7 +6,7 @@ html, body {
 body {
 	margin: 0px;
 	padding: 0px;
-	background: #383838 url(images/bg1_01.gif) repeat;
+	background: #383838 url(/images/bg1_01.gif) repeat;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #616161;
@@ -66,16 +66,16 @@ hr {
 
 #wrapper-bg {
 	overflow: hidden;
-	background: url(images/bg1_03.gif) repeat;
+	background: url(/images/bg1_03.gif) repeat;
 }
 
 #wrapper-bgtop {
-	background: url(images/bg1_02.gif) repeat-x left top;
+	background: url(/images/bg1_02.gif) repeat-x left top;
 }
 
 #wrapper-bgbtm {
 	overflow: hidden;
-	background: url(images/bg1_04.gif) repeat-x left bottom;
+	background: url(/images/bg1_04.gif) repeat-x left bottom;
 }
 
 .container {
@@ -91,7 +91,7 @@ hr {
 
 #header {
 	height: 175px;
-	background: url(images/bg1_05.gif) no-repeat left top;
+	background: url(/images/bg1_05.gif) no-repeat left top;
 }
 
 /** LOGO */
@@ -168,17 +168,17 @@ hr {
 /** PAGE */
 
 #page {
-	background: url(images/bg1_07.gif) repeat-y left top;
+	background: url(/images/bg1_07.gif) repeat-y left top;
 }
 
 #page-bgtop {
-	background: url(images/bg1_06.gif) no-repeat left top;
+	background: url(/images/bg1_06.gif) no-repeat left top;
 }
 
 #page-bgbtm {
 	overflow: hidden;
 	padding: 20px 0px 20px 0px;
-	background: url(images/bg1_08.gif) no-repeat left bottom;
+	background: url(/images/bg1_08.gif) no-repeat left bottom;
 }
 
 /** CONTENT */
@@ -215,7 +215,7 @@ hr {
 #sidebar h2 {
 	height: 47px;
 	padding: 0px 30px;
-	background: url(images/homepage02.gif) repeat-x left top;
+	background: url(/images/homepage02.gif) repeat-x left top;
 	line-height: 47px;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -259,7 +259,7 @@ hr {
 	overflow: hidden;
 	width: 940px;
 	padding: 40px 30px;
-	background: url(images/bg1_09.gif) repeat-y left top;
+	background: url(/images/bg1_09.gif) repeat-y left top;
 }
 
 /** SLIDESHOW */
@@ -297,7 +297,7 @@ hr {
 	height: 102px;
 	left: 0px;
 	bottom: 60px;
-	background: url(images/bg2_01.png) repeat-x left top;
+	background: url(/images/bg2_01.png) repeat-x left top;
 	text-align: center;
 	color: #ffffff;
 }
@@ -324,7 +324,7 @@ hr {
 	left: 0px;
 	width: 100%;
 	height: 100%;
-	background: url(images/slideshow.png) no-repeat left top;
+	background: url(/images/slideshow.png) no-repeat left top;
 }
 
 #slideshow .previous, #slideshow .next {
@@ -339,12 +339,12 @@ hr {
 
 #slideshow .previous {
 	left: 0px;
-	background: url(images/bg2_02.png) no-repeat left top;
+	background: url(/images/bg2_02.png) no-repeat left top;
 }
 
 #slideshow .next {
 	right: 0px;
-	background: url(images/bg2_03.png) no-repeat right top;
+	background: url(/images/bg2_03.png) no-repeat right top;
 }
 
 /** TWO COLUMNS */
@@ -382,7 +382,7 @@ hr {
 #three-columns h2 {
 	margin: 0px;
 	padding: 0px 0px 30px 30px;
-	background: url(images/homepage16.gif) repeat-x left top;
+	background: url(/images/homepage16.gif) repeat-x left top;
 	line-height: 47px;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
@@ -486,7 +486,7 @@ hr {
 .post .title {
 	height: 47px;
 	padding: 0px 30px;
-	background: url(images/homepage01.gif) repeat-x left top;
+	background: url(/images/homepage01.gif) repeat-x left top;
 	line-height: 47px;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -527,7 +527,7 @@ hr {
 	float: left;
 	width: 150px;
 	height: 37px;
-	background: url(images/homepage04.gif) no-repeat left top;
+	background: url(/images/homepage04.gif) no-repeat left top;
 	line-height: 37px;
 	text-align: center;
 	text-decoration: none;
@@ -543,7 +543,7 @@ hr {
 	float: left;
 	width: 139px;
 	height: 37px;
-	background: url(images/homepage05.gif) no-repeat left top;
+	background: url(/images/homepage05.gif) no-repeat left top;
 	line-height: 37px;
 	text-decoration: none;
 	text-align: center;
@@ -557,14 +557,14 @@ hr {
 .link-style3 {
 	display: inline-block;
 	margin-top: 20px;
-	background: url(images/homepage13.gif) repeat-x left top;
+	background: url(/images/homepage13.gif) repeat-x left top;
 	text-decoration: none;
 }
 
 .link-style3 span {
 	display: inline-block;
 	padding: 0px 30px 0px 20px;
-	background: url(images/homepage14.gif) no-repeat right top;
+	background: url(/images/homepage14.gif) no-repeat right top;
 	line-height: 37px;
 	text-decoration: none;
 	text-align: center;
@@ -577,7 +577,7 @@ hr {
 
 .link-style4 {
 	padding-left: 25px;
-	background: url(images/homepage22.gif) no-repeat left 3px;
+	background: url(/images/homepage22.gif) no-repeat left 3px;
 	color: #7F7F7F;
 }
 
