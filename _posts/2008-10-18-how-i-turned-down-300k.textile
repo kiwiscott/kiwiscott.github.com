@@ -5,42 +5,10 @@ excerpt: A day in the life of a daeveloper
 ---
       
 {% highlight csharp %}
-namespace JPMC.ISS.Framework.Reference
-{
     public enum ReferenceItemTypes
     {
-        CHANGE_CANCEL_REASON,
-        CHANGE_DEFERRAL_REASON,
-        APPROVAL_DECLINE_REASON,
-        APPROVAL_IMPACT_REASON,
-        CHANGE_ATTACHMENT_TYPES,
-        IMPACTED_CI_TYPES,
-        POST_IMPLEMENTATION_STATUS,
-        REGION,
-        COUNTRY,
-        IMPLEMENTATION_TASK_STATUS,
-        PROBABILITY,
-        IMPACT,
-        EXPEDITED_REASON,
-        SOURCE,
-        TASK_DEFERRED_REASON,
-        TASK_CANCELLED_REASON,
-        TASK_COMMENT_TYPE,
-        TARGETED_CI_TYPES,
-        LOCATION_COUNTRY, 
-        LOCATION_PROPERTY_TYPE,
-        LOCATION_REGION,
-        MEETING_REGION,
-        MEETING_COMMENT_TYPE,
-        PACKAGE_TYPE,
-        PROCESSING_AFFECTED,
-        SYSTEM_OF_RECORD,
-        PROMOTION_TOOL,
-        GROUPING_TYPE,
-        BCDR_REASON
+        CHANGE_CANCEL_REASON
     }
-}
-
 {% endhighlight %}
 
 h1. {{ page.title }}
