@@ -1,26 +1,16 @@
 ---
 layout: default
-title: Tom Preston-Werner
+title: Kiwi Scott - Blog
 ---
 
-
-http://www.pearsonified.com/wp-content/themes/thesis_17/custom/images/bg-body.gif
-http://www.pearsonified.com/2011/12/golden-ratio-typography.php
- 
- 
- {% for post in site.posts limit 1 %}
-
+{% for post in site.posts limit:1 %}
 <div class="post">
 <h2 class="title"> {{post.date}}</h2>
 <div class="entry">
 <div id="box1">
 <h3 class="text1">{{ post.title}}</h3>
-<p class="text2">{{ page.tags }}</p>
-
-{{ page.content }}
-
+<p class="text2">{{ post.tags }}</p>
 </div>
 </div>
 </div>
-
     {% endfor %}
