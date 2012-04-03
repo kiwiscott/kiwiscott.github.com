@@ -11,11 +11,7 @@ excerpt: A day in the life of a daeveloper
     }
 {% endhighlight %}
 
-h1. {{ page.title }}
-
 p(meta). 18 Oct 2008 - San Francisco
-
-
 
 {% highlight ruby %}
 # Public: Duplicate some text an abitrary number of times.
